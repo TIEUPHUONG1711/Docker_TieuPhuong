@@ -1,0 +1,54 @@
+/* Body và container */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Gradient nhẹ nhàng từ xanh nhạt đến tím pastel */
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Giới hạn container */
+.container {
+    max-width: 900px;
+    padding-bottom: 50px;
+}
+
+/* Card */
+.card {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.95); /* Card hơi trong suốt để thấy gradient */
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Tiêu đề */
+.card-title {
+    font-size: 1.4rem;
+    color: #333;
+}
+
+/* Input và button */
+input.form-control {
+    padding: 12px 14px;
+    border-radius: 12px;
+}
+
+button.btn {
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+}
+
+/* Alert */
+.alert {
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Header */
+h1 {
+    font-weight: 700;
+    color: #1a1a1a;
+}
